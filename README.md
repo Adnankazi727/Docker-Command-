@@ -23,3 +23,12 @@
 
 * Container registry / Docker Registry : Remote repository where container images are stored e.g. DockerHub: repository 
 
+### Docker Network
+
+1. Bridge --> Connect Host machine to Docker Network
+2. Host ---> It start container directly on Host Machine's IP
+3. None ---> It completely isolate the docker container 
+4. Overlay ---> It connects two docker network of the different docker daemons / two docker host machines.
+5. IPVLAN ---> give user total control over both IPv4 & IPv6 address.
+6. macvlan ---> Macvlan network allow you to assign a MAC address to a container.
+
