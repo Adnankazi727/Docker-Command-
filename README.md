@@ -14,7 +14,11 @@
 * docker pull <username/repo:tag> # PULL DOCKER IMAGE It will just pull they image
 * docker inspect = to details of they container 
 * docker commit <container ID> = To create new image from the container 
-* 
+* docker network = to check the network list 
+* docker network create = to ch
+* docker network rm <network-name> = to delete the network 
+* docker prune = delete all unused network or image of docker 
+
 
 
 
