@@ -2,7 +2,7 @@
 
 FROM ubuntu:22.04
 
-LABEL app cbz-app
+LABEL app=cbz-app
 
 RUN apt update
 RUN apt install apache2 -y
