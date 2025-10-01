@@ -18,7 +18,9 @@
 * docker network create = to ch
 * docker network rm <network-name> = to delete the network 
 * docker prune = delete all unused network or image of docker 
-
+* docker build . = to build the container 
+* docker build . -t = to build name the container 
+* docker 
 
 
 
@@ -36,3 +38,19 @@
 5. IPVLAN ---> give user total control over both IPv4 & IPv6 address.
 6. macvlan ---> Macvlan network allow you to assign a MAC address to a container.
 
+### DOCKER FILE
+
+Docker image - configuration file
+
+Difference between ARG and ENV
+* ARG - Build 
+* ENV - Build + Run
+
+Difference between COPY and ADD
+* COPY - copy files from host machine
+* ADD - download files from Remote location
+
+Difference between RUN vs CMD vs ENTRYPOINT
+* RUN - build 
+* CMD - run / easily override by docker run command
+* ENTRYPOINT - run / will not override until we use --entrypoint
